@@ -219,11 +219,11 @@ body {
   color: #f4f4f4;
 }
 
-#marketing .marketing-main-box .marketing-box a > i {
+#marketing .marketing-main-box .marketing-box a>i {
   transition: all 0.5s ease-in;
 }
 
-#marketing .marketing-main-box .marketing-box a:hover > i {
+#marketing .marketing-main-box .marketing-box a:hover>i {
   transform: translateX(100px);
 }
 
@@ -238,8 +238,7 @@ body {
   left: 20.4em;
   right: 0;
   bottom: 0;
-  background: url("img/2nd/2nd-showcase-1st-before.png") no-repeat center
-    center/cover;
+  background: url("img/2nd/2nd-showcase-1st-before.png") no-repeat center center/cover;
   width: 100px;
   height: 100px;
   overflow: hidden;
@@ -252,8 +251,7 @@ body {
   left: 68em;
   right: 0;
   bottom: 0;
-  background: url("img/2nd/2nd-showcase-last-before.png") no-repeat center
-    center/cover;
+  background: url("img/2nd/2nd-showcase-last-before.png") no-repeat center center/cover;
   width: 200px;
   height: 200px;
 }
@@ -310,7 +308,7 @@ body {
   transition: all 0.5s ease-in;
 }
 
-#about .about-content > div a:hover {
+#about .about-content>div a:hover {
   background: none;
   border: 2px solid #ffffff;
 }
@@ -636,7 +634,7 @@ body {
   width: 1800px;
 }
 
-.faq-main-content .faq-content > .faq-text {
+.faq-main-content .faq-content>.faq-text {
   background: #2d4cff;
   padding: 1rem;
   color: #fff;
@@ -646,19 +644,19 @@ body {
   flex-direction: column;
 }
 
-.faq-main-content .faq-content > .faq-text h5 {
+.faq-main-content .faq-content>.faq-text h5 {
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
 }
 
-.faq-main-content .faq-content > .faq-text > .faq-flex {
+.faq-main-content .faq-content>.faq-text>.faq-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
-.faq-main-content .faq-content > .faq-check {
+.faq-main-content .faq-content>.faq-check {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -668,12 +666,12 @@ body {
   opacity: 0.4;
 }
 
-.faq-main-content .faq-content > .faq-check i {
+.faq-main-content .faq-content>.faq-check i {
   cursor: pointer;
   transition: all 1s ease-in;
 }
 
-.faq-main-content .faq-content > .faq-check i:hover {
+.faq-main-content .faq-content>.faq-check i:hover {
   transform: rotateY(360deg);
 }
 
@@ -688,6 +686,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .footer-content .footer-logo {
@@ -696,7 +695,7 @@ body {
 
 .footer-content .footer-logo img {
   width: 150px;
-  margin: 2rem;
+  margin: 1.3rem;
 }
 
 .footer-content .footer-logo p {
@@ -715,7 +714,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.footer-content .footer-contact p > i {
+.footer-content .footer-contact p>i {
   color: #ef646d;
   font-size: 1.7rem;
 }
@@ -753,15 +752,19 @@ body {
   0% {
     transform: scale(1);
   }
+
   25% {
     transform: scale(1.2);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   75% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -777,6 +780,44 @@ body {
   margin-bottom: 2rem;
 }
 
-.footer-links a {
-  margin: 1rem;
+.footer-links p {
+  margin-bottom: 1rem;
+}
+
+.footer-links p>a {
+  color: #fff;
+}
+
+.footer-news {
+  padding: 1rem;
+}
+
+.footer-news h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-news p {
+  margin-bottom: 1rem;
+}
+
+.footer-news a {
+  color: #fff;
+}
+
+.footer-news .news-time {
+  color: #fff;
+  opacity: .5;
+  font-size: 1rem;
+}
+
+#footer hr {
+  margin-bottom: 2rem;
+}
+
+.footer-copy {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
